@@ -1,6 +1,7 @@
 """
 setup.py file
-"""from setuptools import setup, find_packages
+"""
+from setuptools import setup, find_packages
 import codecs
 import os
 
