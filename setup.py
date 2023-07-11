@@ -11,7 +11,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\\n" + fh.read()
 
 setup(
-    name="pyufo",
+    name="ufopy",
     version='{{VERSION_PLACEHOLDER}}',
     author="Daniel Duberg",
     author_email="danielduberg@gmail.com",
