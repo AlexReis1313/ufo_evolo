@@ -19,9 +19,9 @@ setup(
     url = "https://github.com/UnknownFreeOccupied/ufo",
     long_description_content_type="text/markdown",
     long_description=long_description,
-    packages=find_packages(),
+    packages=[],
     install_requires=[],
-    keywords=['pypi', 'cicd', 'python'],
+    keywords=['ufo', 'mapping', 'ros'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
