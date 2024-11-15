@@ -1,0 +1,48 @@
+[submodule "cloud"]
+	path = cloud
+	url = https://github.com/UnknownFreeOccupied/ufocloud.git
+	branch = main
+[submodule "compute"]
+	path = compute
+	url = https://github.com/UnknownFreeOccupied/ufocompute.git
+	branch = main
+[submodule "container"]
+	path = container
+	url = https://github.com/UnknownFreeOccupied/ufocontainer.git
+	branch = main
+[submodule "core"]
+	path = core
+	url = https://github.com/UnknownFreeOccupied/ufocore.git
+	branch = main
+[submodule "geometry"]
+	path = geometry
+	url = https://github.com/UnknownFreeOccupied/ufogeometry.git
+	branch = main
+[submodule "map"]
+	path = map
+	url = https://github.com/UnknownFreeOccupied/ufomap.git
+	branch = v2
+[submodule "math"]
+	path = math
+	url = https://github.com/UnknownFreeOccupied/ufomath.git
+	branch = main
+[submodule "morton"]
+	path = morton
+	url = https://github.com/UnknownFreeOccupied/ufomorton.git
+	branch = main
+[submodule "plan"]
+	path = plan
+	url = https://github.com/UnknownFreeOccupied/ufoplan.git
+	branch = main
+[submodule "time"]
+	path = time
+	url = https://github.com/UnknownFreeOccupied/ufotime.git
+	branch = main
+[submodule "utility"]
+	path = utility
+	url = https://github.com/UnknownFreeOccupied/ufoutility.git
+	branch = main
+[submodule "vision"]
+	path = vision
+	url = https://github.com/UnknownFreeOccupied/ufovision.git
+	branch = main
