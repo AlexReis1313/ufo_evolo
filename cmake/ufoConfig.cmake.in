@@ -1,8 +1,0 @@
-@PACKAGE_INIT@
-
-foreach(component ${ufo_FIND_COMPONENTS})
-    include(${CMAKE_CURRENT_LIST_DIR}/ufo-${component}-config.cmake)
-endforeach()
-
-include("${CMAKE_CURRENT_LIST_DIR}/ufoTargets.cmake")
-check_required_components("ufo")
