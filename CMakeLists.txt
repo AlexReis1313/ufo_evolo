@@ -6,7 +6,7 @@ if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR AND NOT CMAKE_BUILD_TYPE A
   set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 endif()
 
-project(ufo
+project(UFO
 	VERSION 1.0.0
 	DESCRIPTION "UFO"
 	LANGUAGES CXX C
@@ -38,20 +38,20 @@ include(GNUInstallDirs)
 
 include(CMakePackageConfigHelpers)
 configure_package_config_file(
-	"${CMAKE_CURRENT_SOURCE_DIR}/cmake/${PROJECT_NAME}-config.cmake.in"
-	"${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config.cmake"
+	"${CMAKE_CURRENT_SOURCE_DIR}/cmake/ufo-config.cmake.in"
+	"${CMAKE_CURRENT_BINARY_DIR}/ufo-config.cmake"
 	INSTALL_DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}
 )
 
 write_basic_package_version_file(
-	"${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config-version.cmake"
+	"${CMAKE_CURRENT_BINARY_DIR}/ufo-config-version.cmake"
 	VERSION ${PROJECT_VERSION}
 	COMPATIBILITY SameMajorVersion
 )
 
 INSTALL(
 	FILES
-		"${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config.cmake"
-		"${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config-version.cmake"
+		"${CMAKE_CURRENT_BINARY_DIR}/ufo-config.cmake"
+		"${CMAKE_CURRENT_BINARY_DIR}/ufo-config-version.cmake"
 	DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}
 )
