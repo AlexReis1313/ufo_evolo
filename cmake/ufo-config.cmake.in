@@ -9,8 +9,8 @@ if(${CMAKE_FIND_PACKAGE_NAME}_FIND_COMPONENTS)
     # If we could not find the component, set the ufo library to no
     # longer be found and notify the user about the missing component
     if (NOT ${component} IN_LIST _supported_components)
-      set(ufo_FOUND False)
-      set(ufo_NOT_FOUND_MESSAGE "Unsupported component: ${component}")
+      set(UFO_FOUND False)
+      set(UFO_NOT_FOUND_MESSAGE "Unsupported component: ${component}")
     else()
       include(${CMAKE_CURRENT_LIST_DIR}/${component}-config.cmake)
     endif()
