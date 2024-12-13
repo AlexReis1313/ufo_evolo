@@ -46,3 +46,7 @@
 	path = lib/vision
 	url = https://github.com/UnknownFreeOccupied/ufovision.git
 	branch = main
+[submodule "lib/viz"]
+	path = lib/viz
+	url = https://github.com/UnknownFreeOccupied/ufoviz.git
+	branch = main

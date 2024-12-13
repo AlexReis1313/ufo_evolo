@@ -12,7 +12,8 @@ project(UFO
 	LANGUAGES CXX C
 )
 
-option(UFO_TESTING  "Unit testing"                       OFF)
+option(UFO_BUILD_DOCS     "Generate documentation"             OFF)
+option(UFO_BUILD_TESTS  "Unit testing"                       OFF)
 option(UFO_COVERAGE "Test Coverage"                      OFF)
 option(UFO_DEV_MODE "Set up development helper settings" ON)
 
@@ -33,6 +34,7 @@ add_subdirectory(lib/plan)
 add_subdirectory(lib/time)
 add_subdirectory(lib/utility)
 add_subdirectory(lib/vision)
+add_subdirectory(lib/viz)
 
 include(GNUInstallDirs)
 
