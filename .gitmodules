@@ -50,3 +50,6 @@
 	path = lib/viz
 	url = https://github.com/UnknownFreeOccupied/ufoviz.git
 	branch = main
+[submodule "lib/execution"]
+	path = lib/execution
+	url = https://github.com/UnknownFreeOccupied/ufoexecution.git

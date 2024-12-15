@@ -1,7 +1,7 @@
 @PACKAGE_INIT@
 
 # Valid components that can be searched for
-set(_supported_components Cloud Compute Container Core Geometry Map Math Morton Plan Time Utility Vision)
+set(_supported_components Cloud Compute Container Core Execution Geometry Map Math Morton Plan Time Utility Vision Viz)
 
 if(${CMAKE_FIND_PACKAGE_NAME}_FIND_COMPONENTS)
   # Iterate through components attempting to be found
