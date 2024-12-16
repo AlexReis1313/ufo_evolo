@@ -58,3 +58,6 @@ coverage_report/*
 
 # Ply files
 *.ply
+
+# DS_STORE files
+*.DS_STORE
