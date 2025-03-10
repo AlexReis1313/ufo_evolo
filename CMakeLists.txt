@@ -35,7 +35,7 @@ add_subdirectory(lib/plan)
 add_subdirectory(lib/time)
 add_subdirectory(lib/utility)
 add_subdirectory(lib/vision)
-add_subdirectory(lib/viz)
+# add_subdirectory(lib/viz)
 
 include(GNUInstallDirs)
 
